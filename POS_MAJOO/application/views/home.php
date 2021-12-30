@@ -259,11 +259,11 @@
                                                     <tr>
                                                         <td>Harga</td>
                                                         <td>:</td>
-                                                        <td>Rp. <?= number_format($row->grand_total) ?></td>
+                                                        <td>Rp. <?= number_format($row->harga) ?></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                            <input type="hidden" name="harga_produk" id="harga_produk" class="form-control" value="<?= $row->grand_total ?>">
+                                            <input type="hidden" name="harga_produk" id="harga_produk" class="form-control" value="<?= $row->harga ?>">
                                             <input type="hidden" name="id_produk" id="id_produk" class="form-control" value="<?= $row->id_produk ?>">
                                             <div class="row">
                                                 <div class="col-sm-12">
